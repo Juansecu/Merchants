@@ -1,0 +1,16 @@
+table {
+    margin: 1% 0;
+}
+
+table thead,
+table tbody {
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(26, 26, 26, 0.95);
+}
+
+table tbody button {
+    margin-top: -7px;
+}

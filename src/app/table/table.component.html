@@ -1,0 +1,30 @@
+<table class="table table-hover">
+    <thead class="table-primary">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">NIT</th>
+            <th scope="col">Address</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Propietario</th>
+            <th scope="col">Horario</th>
+            <th scope="col">Días</th>
+            <th scope="col">Ventas</th>
+            <!--<th scope="col"><i class="fas fa-plus"></i></th>-->
+        </tr>
+    </thead>
+    <tbody *ngFor="let merchant of merchants">
+        <tr>
+            <td>{{ merchant.id }}</td>
+            <td>{{ merchant.name }}</td>
+            <td>{{ merchant.nit }}</td>
+            <td>{{ merchant.address }}</td>
+            <td>{{ merchant.phone }}</td>
+            <td>{{ merchant.owner }}</td>
+            <td>{{ merchant.schedule }}</td>
+            <td>{{ merchant.days }}</td>
+            <td>{{ merchant.sales }}</td>
+            <!--<td><button class="btn btn-success">Ver más</button></td>-->
+        </tr>
+    </tbody>
+</table>

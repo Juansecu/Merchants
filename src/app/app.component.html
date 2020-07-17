@@ -1,3 +1,29 @@
-<h1>Hello World!</h1>
-<button class="btn btn-danger">Test</button>
-<app-map></app-map>
+<h1>Comerciantes</h1>
+<div class="container">
+    <form>
+        <span>Filtrar:</span>
+        <select class="form-control">
+            <option value="">Todos</option>
+            <option value="">Nombre</option>
+            <option value="">NIT</option>
+            <option value="">Dirección</option>
+            <option value="">Teléfono</option>
+            <option value="">Propietario</option>
+            <option value="">Horario</option>
+            <option value="">Días</option>
+            <option value="">Ventas</option>
+        </select>
+    </form>
+    <app-table></app-table>
+</div>
+
+<div class="container2">
+    <h1>Estadísticas</h1>
+    <app-stats></app-stats>
+</div>
+<div class="container3">
+    <h1>Ubicaciones</h1>
+    <app-map></app-map>
+</div>
+
+<!--<router-outlet></router-outlet>-->

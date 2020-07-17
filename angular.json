@@ -25,12 +25,15 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
               "node_modules/@popperjs/core/dist/umd/popper.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/js/975e811253.js",
+              "node_modules/chart.js/dist/Chart.js"
             ]
           },
           "configurations": {

@@ -1,0 +1,19 @@
+body {
+    padding: 15px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container2 {
+    min-width: 50%;
+    max-width: 50%;
+    float: left;
+}
+
+.container3 {
+    min-width: 50%;
+    max-width: 50%;
+    float: right;
+}
